@@ -1,0 +1,23 @@
+.container{
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  background-color: #383c4c70;
+  color: white;
+  top:0px;
+  display: flex;
+  justify-content: space-between;
+  .logoContainer{
+    margin: 20px;
+  }
+  .userContainer{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    .logoutBtn{
+      margin-left: 10px;
+      cursor: pointer;
+    }
+  }
+}

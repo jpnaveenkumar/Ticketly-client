@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './SignupLogin.module.scss';
+import Logo from '../../components/Common/Logo';
 import SignupLoginHolder from '../../components/SignupLogin/SignupLoginHolder';
 
 const SignupLogin = () => {
@@ -7,10 +8,7 @@ const SignupLogin = () => {
     return (
       <div className={styles.container}>
           <div className={styles.imgContainer}>
-              <img src={url} height={100} width={100}/>
-              <div className={styles.headerContainer}>
-                  <h1>allSign Ticketly</h1>
-              </div>
+              <Logo imgWidth={100} imgheight={100} />
           </div>
           <SignupLoginHolder/>
       </div>

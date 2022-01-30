@@ -10,17 +10,5 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    .headerContainer{
-      font-weight: bold;
-      letter-spacing: .5px;
-      position: relative;
-      left: -20px;
-      top: 7px;
-      h1{
-        background: -webkit-linear-gradient(#20a18a, #3c537c);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-      }
-    }
   }
 }

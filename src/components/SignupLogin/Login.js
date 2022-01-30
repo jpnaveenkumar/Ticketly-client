@@ -1,7 +1,9 @@
 import React from 'react';
 import { Form, Input, Button, Checkbox, Select, notification } from 'antd';
+import { useNavigate } from "react-router-dom";
 
 const Login = () => {
+    const navigate = useNavigate();
 
     var md5 = require('md5');
 
@@ -31,7 +33,8 @@ const Login = () => {
                 openNotification(data.httpStatus, data.message);
             }else{
                 openNotification("Login success!","");
-                window.localStorage.setItem("customer", JSON.stringify(data));
+                window.localStorage.setItem("customer", JSON.stringify(data.data));
+                navigate("/");
             }
             console.log('Success:', data);
         })
