@@ -92,7 +92,7 @@ const Signup = () => {
                     <Select>
                         <Select.Option value="VIP">VIP</Select.Option>
                         <Select.Option value="loyal">Loyal</Select.Option>
-                        <Select.Option value="new">New</Select.Option>
+                        <Select.Option value="recent">New</Select.Option>
                     </Select>
                 </Form.Item>
 
